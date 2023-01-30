@@ -1,0 +1,28 @@
+/* h1 ANIMATION */
+
+h1 {
+    opacity: 0;
+    animation: h1-opacity 1s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes h1-opacity {
+    100% {
+        opacity: 100%;
+    }
+}
+
+/* H2 ANIMATION */
+
+h2 {
+    opacity: 0;
+    animation: h2-opacity 1s 1s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes h2-opacity {
+    100% {
+        opacity: 100%;
+    }
+}
+
